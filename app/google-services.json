@@ -1,0 +1,131 @@
+{
+  "project_info": {
+    "project_number": "738705536046",
+    "firebase_url": "https://healthyapp-b628f.firebaseio.com",
+    "project_id": "healthyapp-b628f",
+    "storage_bucket": "healthyapp-b628f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738705536046:android:85d23abda0a733850c1bbf",
+        "android_client_info": {
+          "package_name": "com.example.healthyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738705536046-6pahjdk0h979moke3tegtd4duduf8ioa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthyapp",
+            "certificate_hash": "02b6cc0ab22e4b884d7b55694d3d468d4af8ee5a"
+          }
+        },
+        {
+          "client_id": "738705536046-ov1h7kb50hadvf9b0ve037fmobltlhga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGwieB8ME4LdtCJoeJyi9xpNYRanqhBPE"
+        },
+        {
+          "current_key": "AIzaSyDi2RtohYY-gr5mDpFhvsN4W7oU2WeMRpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738705536046-ov1h7kb50hadvf9b0ve037fmobltlhga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738705536046:android:58ed519014cead400c1bbf",
+        "android_client_info": {
+          "package_name": "com.mahmoud.healthyadminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738705536046-oh4uibb60iqge62mabmi18so63kqedhk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mahmoud.healthyadminapp",
+            "certificate_hash": "02b6cc0ab22e4b884d7b55694d3d468d4af8ee5a"
+          }
+        },
+        {
+          "client_id": "738705536046-ov1h7kb50hadvf9b0ve037fmobltlhga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGwieB8ME4LdtCJoeJyi9xpNYRanqhBPE"
+        },
+        {
+          "current_key": "AIzaSyDi2RtohYY-gr5mDpFhvsN4W7oU2WeMRpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738705536046-ov1h7kb50hadvf9b0ve037fmobltlhga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738705536046:android:b2e420431437a2860c1bbf",
+        "android_client_info": {
+          "package_name": "com.mahmoud.healthyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738705536046-c0ms0hok98f1q4hbnrnl449g80eemp56.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mahmoud.healthyapp",
+            "certificate_hash": "02b6cc0ab22e4b884d7b55694d3d468d4af8ee5a"
+          }
+        },
+        {
+          "client_id": "738705536046-ov1h7kb50hadvf9b0ve037fmobltlhga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGwieB8ME4LdtCJoeJyi9xpNYRanqhBPE"
+        },
+        {
+          "current_key": "AIzaSyDi2RtohYY-gr5mDpFhvsN4W7oU2WeMRpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738705536046-ov1h7kb50hadvf9b0ve037fmobltlhga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

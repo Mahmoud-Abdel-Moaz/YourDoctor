@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">YourPocketDoctor</string>
+
+    <string name="diseases">Diseases</string>
+    <string name="medicines">Medicines</string>
+    <string name="pharmacies">Pharmacies</string>
+    <string name="first_aid">First Aid</string>
+    <string name="search">Search</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="interactions">Interactions</string>
+    <string name="dosage">Dosage</string>
+    <string name="sideEffects">Side Effects</string>
+    <string name="contraindications">Contraindications</string>
+    <string name="uses">Uses</string>
+    <string name="order">Order</string>
+    <string name="language">Language</string>
+    <string name="Arabic">Arabic</string>
+    <string name="English">English</string>
+    <string-array name="spinner_array">
+        <item>@string/English</item>
+        <item>@string/Arabic</item>
+    </string-array>
+    <string name="setttings">Setttings</string>
+    <string name="symptoms">Symptoms</string>
+    <string name="causes">Causes</string>
+    <string name="treatment">Treatment</string>
+    <string name="title_activity_pharmacy_maps">Map</string>
+    <string name="alternatives">Alternatives</string>
+    <string name="resource">Resources</string>
+</resources>

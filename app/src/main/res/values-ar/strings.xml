@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YourPocketDoctor</string>
+
+    <string name="diseases">الأمراض</string>
+    <string name="medicines">أدوية</string>
+    <string name="pharmacies">صيدليات</string>
+    <string name="first_aid">الأسعافات الأولية</string>
+    <string name="search">بحث</string>
+    <string name="name">الأسم</string>
+    <string name="description">الوصف</string>
+    <string name="interactions">التفاعلات</string>
+    <string name="dosage">الجرعة</string>
+    <string name="sideEffects">الآثار جانبية</string>
+    <string name="contraindications">موانع الأستعمال</string>
+    <string name="uses">الأستخدام</string>
+    <string name="order">طلب</string>
+    <string name="language">اللغة</string>
+    <string name="Arabic">اللغة العربية</string>
+    <string name="English">اللغة الأنجليزية</string>
+    <string-array name="spinner_array">
+        <item>@string/Arabic</item>
+        <item>@string/English</item>
+    </string-array>
+    <string name="setttings">الأعدادات</string>
+    <string name="symptoms">الأعراض</string>
+    <string name="treatment">العلاج</string>
+    <string name="causes">الأسباب</string>
+    <string name="alternatives">بدائل</string>
+    <string name="resource">المصادر</string>
+
+</resources>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ui.Medicine.MedicineDetailsActivity">
+
+    <ScrollView
+        android:id="@+id/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/but_order"
+       android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textColor="@color/backgroundView"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"
+                android:text="@string/name"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/descriptionTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/description"
+                android:textColor="@color/backgroundView"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                android:fontFamily="sans-serif"
+                android:text="@string/description"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/interactionsTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/interactions"
+                android:textColor="@color/backgroundView"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txt_interactions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                android:fontFamily="sans-serif"
+                android:text="@string/interactions"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/dosageTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/dosage"
+                android:textColor="@color/backgroundView"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_dosage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                android:text="@string/dosage"
+                android:fontFamily="sans-serif"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/sideEffectsTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/sideEffects"
+                android:textColor="@color/backgroundView"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txt_sideEffects"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                android:text="@string/sideEffects"
+                android:fontFamily="sans-serif"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/contraindicationsTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/contraindications"
+                android:textColor="@color/backgroundView"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_contraindications"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                android:text="@string/contraindications"
+                android:fontFamily="sans-serif"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/usesTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/uses"
+                android:textColor="@color/backgroundView"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_uses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                android:fontFamily="sans-serif"
+                android:text="@string/uses"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/alternativesTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/alternatives"
+                android:textColor="@color/backgroundView"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_alternatives"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                android:fontFamily="sans-serif"
+                android:text="@string/alternatives"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/resourceTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/resource"
+                android:textColor="@color/backgroundView"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_resource"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                android:fontFamily="sans-serif"
+                android:text="@string/resource"
+                android:textSize="14sp" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/but_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_shap"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif"
+        android:text="@string/order"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>
